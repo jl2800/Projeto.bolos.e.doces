@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equ-iv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de bolos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="imagens/logo.ico">
+
+</head>
+<body>
+<nav style="align-items:center; justify-content: center; align-self: center;display: flex;">
+        <div style="display: flex; align-items: center;">
+            <img src="imagens/logo.png" style="width: 8%; padding-left: 10px;">
+            <a href="index.html" style="text-decoration: none;"><h1 style="color: white; padding-left: 10px; font-size: 2rem;"><b>Bolos e Doces</b></h1></a>
+        </div>
+        <ul style="display: flex;">  
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                
+                <a href="modelos.html">Modelos</a>
+            </li>
+            <li class="dropdown">
+                <a href="">Pedidos</a>
+
+                <div class="dropdown-menu">
+                    <a href="formbolo.html">Bolos</a>
+                    <a href="formacet.html">Acetato</a>
+                    <a href="formsalg.html">Salgados</a>
+                    <a href="formdoc.html">Docinhos</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="contato.html">Contato</a>
+
+                <div class="dropdown-menu" style="align-items:center; text-align: center; justify-content: center;">
+                   <a href="https://instagram.com/bolos_e_doces_com_amor?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><img src="imagens/insta.png"><p>instagram</p></a>
+                   <a href="https://web.whatsapp.com/send?phone=+5589994369596" target="_blank"><img src="imagens/whats.png"><p>WhatsApp</p></a>
+                </div>
+            </li>
+             <li>
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="box">
+        <form action="index.html">
+            <fieldset>
+                <legend><b>ENCOMENDA - BOLO</b></legend>
+                <br>
+                <p>Tamanho:</p>
+                <div class="custom-radio">
+                <input type="radio" id="preco1" name="Tamanho" value="preco1" required>
+                <label for="preco1">06 fatias - R$28,00</label>
+                <br>
+                <input type="radio" id="preco2" name="Tamanho" value="preco2" required>
+                <label for="preco2">08 fatias - R$34,00</label>
+                <br>
+                <input type="radio" id="preco3" name="Tamanho" value="preco3" required>
+                <label for="preco3">10 fatias - R$38,00</label>
+                <br>
+                <input type="radio" id="preco4" name="Tamanho" value="preco4" required>
+                <label for="preco4">14 fatias - R$43,00</label>
+                <br>
+                <input type="radio" id="preco5" name="Tamanho" value="preco5" required>
+                <label for="preco5">17 fatias - R$53,00</label>
+                <br>
+                <input type="radio" id="preco6" name="Tamanho" value="preco6" required>
+                <label for="preco6">25 fatias - R$68,00</label>
+                <br>
+                <input type="radio" id="preco7" name="Tamanho" value="preco7" required>
+                <label for="preco7">40 fatias - R$85,00</label>
+                <br>
+                <input type="radio" class="limited" id="preco8" name="Tamanho" value="preco8" required>
+                <label for="preco8">60 fatias - R$128,00</label>
+                </div>
+                <br>
+                <div class="custom-radio">
+                <p>Massa:</p>
+                <input type="radio" class="limited" id="Branca" name="Massa" value="Branca" required>
+                <label for="Branca">Branca</label>
+                <br>
+                <input type="radio" class="limited" id="Chocolate" name="Massa" value="Chocolate" required>
+                <label for="Chocolate">Chocolate</label>
+                <br>
+                <input type="radio" class="limited" id="redvelvet" name="Massa" value="redvelvet" required>
+                <label for="redvelvet">Red Velvet</label>
+                </div>
+                <br>
+                <p>Recheio:</p>
+                <div class="custom-checkbox">
+                <input type="checkbox" class="limited" id="brigadeiro" name="Recheios" value="brigadeiro">
+                <label for="brigadeiro">Brigadeiro</label>
+                <br>
+                <input type="checkbox" class="limited" id="brigadeiroBranco" name="Recheios" value="brigadeiroBranco">
+                <label for="brigadeiroBranco">Brigadeiro Branco</label>
+                <br>
+                <input type="checkbox" class="limited" id="ninho" name="Recheios" value="ninho">
+                <label for="ninho">Ninho</label>
+                <br>
+                <input type="checkbox" class="limited" id="beijinho" name="Recheios" value="beijinho">
+                <label for="beijinho">Beijinho</label>
+                <br>
+                <input type="checkbox" class="limited" id="maracuja" name="Recheios" value="maracuja">
+                <label for="maracuja">Brigadeiro de Maracujá</label>
+                <br>
+                <input type="checkbox" class="limited" id="doceleite" name="Recheios" value="doceleite">
+                <label for="doceleite">Doce de Leite</label>
+                <br>
+                <input type="checkbox" class="limited" id="brigadeiroAmeixa" name="Recheios" value="brigadeiroAmeixa">
+                <label for="brigadeiroAmeixa">Brigadeiro de Ameixa</label>
+                <br>
+                <input type="checkbox" class="limited" id="QLeites" name="Recheios" value="QLeites">
+                <label for="QLeites">Quatro Leites</label>
+                <br>
+                <input type="checkbox" class="limited" id="Pacoquinha" name="Recheios" value="Pacoquinha">
+                <label for="Pacoquinha">Paçoquinha</label>
+                <br>
+                <input type="checkbox" class="limited" id="Moranguinho" name="Recheios" value="Moranguinho">
+                <label for="Moranguinho">Moranguinho</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit" >
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

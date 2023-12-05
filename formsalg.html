@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equ-iv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Docinhos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="imagens/logo.ico">
+
+</head>
+<body>
+<nav style="align-items:center; justify-content: center; align-self: center;display: flex;">
+        <div style="display: flex; align-items: center;">
+            <img src="imagens/logo.png" style="width: 8%; padding-left: 10px;">
+            <a href="index.html" style="text-decoration: none;"><h1 style="color: white; padding-left: 10px; font-size: 2rem;"><b>Bolos e Doces</b></h1></a>
+        </div>
+        <ul style="display: flex;">  
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                
+                <a href="modelos.html">Modelos</a>
+            </li>
+            <li class="dropdown">
+                <a href="">Pedidos</a>
+
+                <div class="dropdown-menu">
+                    <a href="formbolo.html">Bolos</a>
+                    <a href="formacet.html">Acetato</a>
+                    <a href="formsalg.html">Salgados</a>
+                    <a href="formdoc.html">Docinhos</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="contato.html">Contato</a>
+
+                <div class="dropdown-menu" style="align-items:center; text-align: center; justify-content: center;">
+                   <a href="https://instagram.com/bolos_e_doces_com_amor?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><img src="imagens/insta.png"><p>instagram</p></a>
+                   <a href="https://web.whatsapp.com/send?phone=+5589994369596" target="_blank"><img src="imagens/whats.png"><p>WhatsApp</p></a>
+                </div>
+            </li>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="box">
+        <form action="index.html">
+            <fieldset>
+                <legend><b>ENCOMENDA - SALGADOS</b></legend>
+                <br>
+                <p><b>*Abaixo de 50 unidades: R$0,70 a unidade</b></p>
+                <br>
+                <p><b>*Acima de 50 unidades: R$0,60 a unidade</b></p>
+                <br>
+                <p>Quantidade:</p>
+                <div class="custom-radio"> 
+                <input type="radio" id="vlr1" name="vlr" value="vlr1" required>
+                <label for="vlr1">10 unidades - R$7,00</label>
+                <br>
+                <input type="radio" id="vlr2" name="vlr" value="vlr2" required>
+                <label for="vlr2">20 unidades - R$14,00</label>
+                <br>
+                <input type="radio" id="vlr3" name="vlr" value="vlr3" required>
+                <label for="vlr3">30 unidades - R$21,00</label>
+                <br>
+                <input type="radio" id="vlr4" name="vlr" value="vlr4" required>
+                <label for="vlr4">40 unidades - R$28,00</label>
+                <br>
+                <input type="radio" id="vlr5" name="vlr" value="vlr5" required>
+                <label for="vlr5">50 unidades - R$30,00</label>
+                <br>
+                <input type="radio" id="vlr6" name="vlr" value="vlr6" required>
+                <label for="vlr6">100 unidades - R$60,00</label>
+                <br>
+                <input type="radio" id="vlr7" name="vlr" value="vlr7" required>
+                <label for="vlr7">150 unidades - R$90,00</label>
+                <br>
+                <input type="radio" id="vlr8" name="vlr" value="vlr8" required>
+                <label for="vlr8">200 unidades - R$120,00</label>
+                <br>
+                <input type="radio" id="vlr9" name="vlr" value="vlr9" required>
+                <label for="vlr9">250 unidades - R$150,00</label>
+                <br>
+                 <input type="radio" id="vlr10" name="vlr" value="vlr10" required>
+                <label for="vlr10">300 unidades - R$180,00</label>
+                </div>
+                <br>
+                <p>Tipos:</p>
+                <div class="custom-checkbox">
+                <input type="checkbox" class="limited" id="Coxinha" name="Tipo" value="Coxinha" >
+                <label for="Coxinha">Coxinha</label>
+                <br>
+                <input type="checkbox" class="limited" id="Pastel" name="Tipo" value="Pastel" >
+                <label for="Pastel">Pastel</label>
+                <br>
+                <input type="checkbox" class="limited" id="Risole" name="Tipo" value="Risole" >
+                <label for="Risole">Risole</label>
+                <br>
+                <input type="checkbox" class="limited" id="Canudinho" name="Tipo" value="Canudinho" >
+                <label for="Canudinho">Canudinho(Rabo de Tatu)</label>
+                </div>
+                <br>
+                <p>Sabores:</p>
+                <div class="custom-checkbox">
+                <input type="checkbox" class="limited" id="Frango" name="Sabor" value="Feango" >
+                <label for="Feango">Frango</label>
+                <br>
+                <input type="checkbox" class="limited" id="Carne moída" name="Sabor" value="Carne moída" >
+                <label for="Carne moída">Carne Moída</label>
+                <br>
+                <input type="checkbox" class="limited" id="Queijo" name="Sabor" value="Queijo" >
+                <label for="Queijo">Queijo</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

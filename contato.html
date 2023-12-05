@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolos e doces</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="imagens/logo.ico">
+
+</head>
+<body>
+     <nav style="align-items:center; justify-content: center; align-self: center;display: flex;">
+        <div style="display: flex; align-items: center;">
+            <img src="imagens/logo.png" style="width: 8%; padding-left: 10px;">
+            <a href="index.html" style="text-decoration: none;"><h1 style="color: white; padding-left: 10px; font-size: 2rem;"><b>Bolos e Doces</b></h1></a>
+        </div>
+        <ul style="display: flex;">  
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                
+                <a href="modelos.html">Modelos</a>
+            </li>
+            <li class="dropdown">
+                <a href="">Pedidos</a>
+
+                <div class="dropdown-menu">
+                    <a href="formbolo.html">Bolos</a>
+                    <a href="formacet.html">Acetato</a>
+                    <a href="formsalg.html">Salgados</a>
+                    <a href="formdoc.html">Docinhos</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="contato.html">Contato</a>
+
+                <div class="dropdown-menu" style="align-items:center; text-align: center; justify-content: center;">
+                   <a href="https://instagram.com/bolos_e_doces_com_amor?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><img src="imagens/insta.png"><p>instagram</p></a>
+                   <a href="https://web.whatsapp.com/send?phone=+5589994369596" target="_blank"><img src="imagens/whats.png"><p>WhatsApp</p></a>
+                </div>
+            </li>
+             <li>
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <div class="box" style="width:50%; top:50%">
+        <form action="index.html">
+            <fieldset>
+                <legend><b>Fale Conosco!</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="Nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="Mensagem" id="mensagem" class="inputUser" required>
+                    <label for="mensagem" class="labelInput">Deixe seu feedbeak</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+   </body>
+</html>
